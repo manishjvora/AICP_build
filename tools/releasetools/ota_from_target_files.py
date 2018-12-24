@@ -741,6 +741,8 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   else:
     script.Print("*   Device: %s"%(device));
   script.Print("*********************************************");
+  script.Print("  Updated source on github.com/manishjvora   ");
+  script.Print("*********************************************");
 
   if OPTIONS.wipe_user_data:
     system_progress -= 0.1
